@@ -11,5 +11,13 @@ namespace TodoApi.Data
         }
 
         public DbSet<TodoItem> TodoItems { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TodoItem>()
+                .Property(t => t.Id)
+                .ValueGeneratedOnAdd();
+        }
+
     }
 }

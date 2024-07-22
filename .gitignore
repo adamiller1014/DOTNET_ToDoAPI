@@ -1,0 +1,37 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+*.dotnet-tool.json
+!.dotnet-tools.json
+project.assets.json
+project.nuget.cache
+# Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Mac
+*.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# NuGet
+*.nupkg
